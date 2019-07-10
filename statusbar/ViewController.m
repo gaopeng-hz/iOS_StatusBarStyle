@@ -46,8 +46,10 @@
 - (IBAction)toggleStatusBarStyle:(id)sender {
     // UIStatusBarStyle 枚举对应的两个style正好是 0 和 1，这里可以直接取反操作
     _style = !_style;
-    // preferredStatusBarUpdateAnimation 只会影响hidden属性，style没有animation
-    [self setNeedsStatusBarAppearanceUpdate];
+    // preferredStatusBarUpdateAnimation 只会影响hidden属性，style的动画不受影响
+    [UIView animateWithDuration:0.25 animations:^{
+        [self setNeedsStatusBarAppearanceUpdate];
+    }];
 }
 
 - (void)dealloc {
