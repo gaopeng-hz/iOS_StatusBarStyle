@@ -13,6 +13,7 @@
 		620A1A9C22607C9F008037F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 620A1A9B22607C9F008037F0 /* Assets.xcassets */; };
 		620A1A9F22607C9F008037F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 620A1A9D22607C9F008037F0 /* LaunchScreen.storyboard */; };
 		620A1AA222607C9F008037F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 620A1AA122607C9F008037F0 /* main.m */; };
+		627A1C8722D583AE00CEF022 /* MyNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 627A1C8622D583AE00CEF022 /* MyNavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		620A1A9E22607C9F008037F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		620A1AA022607C9F008037F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		620A1AA122607C9F008037F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		627A1C8522D583AE00CEF022 /* MyNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyNavigationController.h; sourceTree = "<group>"; };
+		627A1C8622D583AE00CEF022 /* MyNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyNavigationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				620A1A9322607C99008037F0 /* AppDelegate.m */,
 				620A1A9522607C99008037F0 /* ViewController.h */,
 				620A1A9622607C99008037F0 /* ViewController.m */,
+				627A1C8522D583AE00CEF022 /* MyNavigationController.h */,
+				627A1C8622D583AE00CEF022 /* MyNavigationController.m */,
 				620A1A9822607C99008037F0 /* Main.storyboard */,
 				620A1A9B22607C9F008037F0 /* Assets.xcassets */,
 				620A1A9D22607C9F008037F0 /* LaunchScreen.storyboard */,
@@ -142,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				620A1A9722607C99008037F0 /* ViewController.m in Sources */,
+				627A1C8722D583AE00CEF022 /* MyNavigationController.m in Sources */,
 				620A1AA222607C9F008037F0 /* main.m in Sources */,
 				620A1A9422607C99008037F0 /* AppDelegate.m in Sources */,
 			);
@@ -286,7 +292,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 27GFN45QK5;
+				DEVELOPMENT_TEAM = L2X2366UE2;
 				INFOPLIST_FILE = statusbar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -303,7 +309,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 27GFN45QK5;
+				DEVELOPMENT_TEAM = L2X2366UE2;
 				INFOPLIST_FILE = statusbar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
