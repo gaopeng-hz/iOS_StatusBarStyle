@@ -12,9 +12,9 @@ iOS新建工程后可以在`General`标签页对APP进行基本的配置，在`D
 三个样式修改后也可以在`Info.plist`中找到相应的设置
 ![Info.plist](https://upload-images.jianshu.io/upload_images/788630-104fad65872f1f04.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-###程序控制
+### 程序控制
 
-####UIApplication
+#### UIApplication
 
 在UIApplication中可以通过一些方法和属性设置状态栏样式。
 
